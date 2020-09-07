@@ -23,6 +23,8 @@ class Team:
     def play_game(self, score):
         if score == True:
             self.points += 3
+        else score == False:
+            pass
 
         
 
